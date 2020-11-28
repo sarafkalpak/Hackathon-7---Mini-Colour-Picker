@@ -29,9 +29,10 @@ const App = () => {
     updateSelectionStyle(nextBackground)
   }
 
+
   return (
     <div id="master">
-      <h5 className="heading">{/* display title here */}</h5>
+      <h5 className="heading">{minicolourpicker}</h5>
 
       <div className="row">
         {colourConfig.map((config, index) => (
